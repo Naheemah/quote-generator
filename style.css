@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin: 120px auto 0;
+    color: #313131;
+    font-weight: 600;
+}
+
+.quote-box {
+    background: #fff;
+    margin: 100px 300px;
+    text-align: center;
+    padding: 7px 7px 60px;
+    line-height: 1.6em;
+    word-spacing: 3px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}

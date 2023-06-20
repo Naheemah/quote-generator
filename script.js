@@ -44,7 +44,7 @@ const quoteGenerator = () => {
         case 11:
             selectedQuote = "You may hold my hand for a while, but you hold my heart forever."
             break;
-        case 12:
+        /*case 12:
             selectedQuote = "Come live in my heart and pay no rent."
             break;
         case 13:
@@ -72,6 +72,6 @@ const quoteGenerator = () => {
             selectedQuote = "Be like water, not luxurious but valuable for life."
             break;
         case 20:
-            selectedQuote = "Silence isn't empty. It's full of answers."
+            selectedQuote = "Silence isn't empty. It's full of answers."*/
     }
 }

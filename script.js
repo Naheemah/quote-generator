@@ -44,7 +44,7 @@ const quoteGenerator = () =>{
             selectedQuote = "One of the best lesson you can learn in life is to master how to remain calm."
             break;
         case 12:
-            selectedQuote = "You are powerful, more than you even know, do not give your power away.."
+            selectedQuote = "You are powerful, more than you even know, do not give your power away."
             break;
         case 13:
             selectedQuote = "Find out what you like doing best and get someone to pay you for doing it."
@@ -78,14 +78,14 @@ const quoteGenerator = () =>{
     console.log(selectedQuote);
     console.log(randomQuote);
 
-    if(randomQuote <= 5) {
+    /*if(randomQuote <= 5) {
         quote.style.backgroundColor = "rgb(245, 107, 194)";
         body.style.backgroundColor = 'rgba(245, 107, 194, 0.18)';
     }
     else if(randomQuote <= 10) {
         quote.style.backgroundColor = "#b270e2";
         body.style.backgroundColor = 'rgba(178, 112, 226, 0.23)';
-    }
+    }*/
 }
 quoteGenerator();
 setInterval(quoteGenerator, 20000);

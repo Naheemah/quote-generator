@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: sandybrown;
 }
 
 .title {
@@ -19,14 +20,16 @@ body {
     background: #fff;
     margin: 100px 300px;
     text-align: center;
-    /*padding: 7px 7px 60px;*/
+    padding: 7px 7px 60px;
     line-height: 1.6em;
     word-spacing: 3px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     transition: 0.3s;
+    margin-bottom: 50px;
 }
 
 .quote-box:hover {
@@ -36,6 +39,7 @@ body {
 #quote {
     margin: 0;
     padding: 50px 20px;
+    padding-bottom: 0;
     /*background-color: #9eb3cc;*/
     color: black;
 }
@@ -44,15 +48,11 @@ body {
     text-align: center;
 }
 
-#btn {
-    padding: 15px 50px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    color: #000;
+small {
+    font-family: 'Fantasy';
+    font-style: italic;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    font-size: 16px;
 }
 
 @media (max-width: 800px) {

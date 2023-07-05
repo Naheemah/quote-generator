@@ -25,10 +25,10 @@ const quoteGenerator = () => {
             selectedQuote = "If i had a flower for every time i thought of you, i could walk in my garden forever.";
             break;
         case 6:
-            selectedQuote = "For once in my life, i don't have to try to be happy. When i'm with you, it just happens.";
+            selectedQuote = "Stop looking for happiness in the same place you lost it.";
             break;
         case 7:
-            selectedQuote = "I love you because i know no matter what happens, you'll always love me back.";
+            selectedQuote = "The win is coming, don't let the when worry you.";
             break;
         case 8:
             selectedQuote = "In a sea of people, my eyes will always be searching for you.";
@@ -41,7 +41,7 @@ const quoteGenerator = () => {
             selectedQuote = "Never make a permanent decision based on temporary feelings."
             break;
         case 11:
-            selectedQuote = "You may hold my hand for a while, but you hold my heart forever."
+            selectedQuote = "One of the best lesson you can learn in life is to master how to remain calm."
             break;
         /*case 12:
             selectedQuote = "You are powerful, more than you even know, do not give your power away.."

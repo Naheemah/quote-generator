@@ -74,7 +74,9 @@ const quoteGenerator = () =>{
             selectedQuote = "Silence isn't empty. It's full of answers."
             break;
     }
-    document.getElementById('quote').innerHTML = `$(selectedQuote)`;
+    document.getElementById('quote').innerHTML = `${selectedQuote}`;
     console.log(selectedQuote);
     console.log(randomQuote);
 }
+quoteGenerator();
+setInterval(quoteGenerator, 20000);

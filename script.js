@@ -18,11 +18,11 @@ const quoteGenerator = () => {
             selectedQuote = "The way you started loving her is the way she should always be loved.";
             break;
         case 4:
-            selectedQuote = "Loving you is like breathing. How can i stop?";
+            selectedQuote = "It takes a high intellect and a reflective soul to understand that money is not happiness.";
             //console.log(selectedQuote);
             break;
         case 5:
-            selectedQuote = "If i had a flower for every time i thought of you, i could walk in my garden forever.";
+            selectedQuote = "You're strong enough to face it all, even if it doesn't feel like it right now.";
             break;
         case 6:
             selectedQuote = "Stop looking for happiness in the same place you lost it.";

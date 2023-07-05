@@ -19,7 +19,7 @@ body {
     background: #fff;
     margin: 100px 300px;
     text-align: center;
-    padding: 7px 7px 60px;
+    /*padding: 7px 7px 60px;*/
     line-height: 1.6em;
     word-spacing: 3px;
     font-size: 20px;
@@ -37,11 +37,22 @@ body {
     margin: 0;
     padding: 50px 20px;
     /*background-color: #9eb3cc;*/
-    color: white;
+    color: black;
 }
 
 .note {
     text-align: center;
+}
+
+#btn {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {

@@ -1,4 +1,4 @@
-const quoteGenerator = () => {
+const quoteGenerator = () =>{
     let body = document.getElementById('body');
     let quote = document.getElementById('quote');
     let selectedQuote = "";
@@ -43,7 +43,7 @@ const quoteGenerator = () => {
         case 11:
             selectedQuote = "One of the best lesson you can learn in life is to master how to remain calm."
             break;
-        /*case 12:
+        case 12:
             selectedQuote = "You are powerful, more than you even know, do not give your power away.."
             break;
         case 13:
@@ -71,6 +71,10 @@ const quoteGenerator = () => {
             selectedQuote = "Be like water, not luxurious but valuable for life."
             break;
         case 20:
-            selectedQuote = "Silence isn't empty. It's full of answers."*/
+            selectedQuote = "Silence isn't empty. It's full of answers."
+            break;
     }
+    document.getElementById('quote').innerHTML = `$(selectedQuote)`;
+    console.log(selectedQuote);
+    console.log(randomQuote);
 }

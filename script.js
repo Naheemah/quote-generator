@@ -5,7 +5,6 @@ const quoteGenerator = () => {
     let randomQuote = Math.floor(Math.random() * 20);
 
     switch (randomQuote) {
-        //Love Quote
         case 0:
             selectedQuote = "Love isn't about finding the perfect person. Love is about finding an imperfect person and seeing perfection.";
             break;
@@ -36,7 +35,7 @@ const quoteGenerator = () => {
             //console.log(selectedQuote);
             break;
         case 9:
-            selectedQuote = "I wish i could turn back the clock. I'd find you sooner and love you longer.";
+            selectedQuote = "The day you start putting limitations on all you do, is the begining of your maturity.";
             break;
         case 10:
             selectedQuote = "Never make a permanent decision based on temporary feelings."
@@ -45,7 +44,7 @@ const quoteGenerator = () => {
             selectedQuote = "You may hold my hand for a while, but you hold my heart forever."
             break;
         /*case 12:
-            selectedQuote = "Come live in my heart and pay no rent."
+            selectedQuote = "You are powerful, more than you even know, do not give your power away.."
             break;
         case 13:
             selectedQuote = "Find out what you like doing best and get someone to pay you for doing it."

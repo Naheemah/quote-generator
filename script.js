@@ -77,6 +77,15 @@ const quoteGenerator = () =>{
     document.getElementById('quote').innerHTML = `${selectedQuote}`;
     console.log(selectedQuote);
     console.log(randomQuote);
+
+    if(randomQuote <= 5) {
+        quote.style.backgroundColor = "rgb(245, 107, 194)";
+        body.style.backgroundColor = 'rgba(245, 107, 194, 0.18)';
+    }
+    else if(randomQuote <= 10) {
+        quote.style.backgroundColor = "#b270e2";
+        body.style.backgroundColor = 'rgba(178, 112, 226, 0.23)';
+    }
 }
 quoteGenerator();
 setInterval(quoteGenerator, 20000);
